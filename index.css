@@ -6,6 +6,10 @@
 margin-left: 3em;
 margin-top: 12em;
 }
+
+.navbar{
+    width: 100%;
+}
 .navbar-nav{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -34,8 +38,17 @@ margin-top: 12em;
     padding-left: 1em;
     margin-bottom: -1em;
     gap: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #006B5B !important;
+    font-weight: 600;
 
+}
+.nav-link{
+    color: #006B5B;
+}
 
+.nav-link :active{
+    color: #006B5B;
 }
 .navbar-brand{
     margin-top: -9em !important;
@@ -53,8 +66,8 @@ margin-top: 12em;
 }
 .mainflex img{
     height: 30em;
-    width: 41em;
-    left: 883.199951171875px;
+    width: 41.3em;
+    /* left: 883.199951171875px; */
     top: 0px;
     border-radius: 0px;
     
@@ -65,6 +78,11 @@ margin-top: 12em;
     padding-bottom: 4em;
 }
 
+.joy h1, h4{
+    font-family: 'Playfair Display', serif;
+    color: #006B5B;
+    font-weight: bold;
+}
 .joy button{
  width: 248px;
 height: 45px;
@@ -72,6 +90,8 @@ border: none;
 background: #FA6625;
 color: #FFFFFF;
 box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.33);
+font-family: 'Bebas Neue', sans-serif;
+font-size: 1.5em;
 
 }
 .hr{
@@ -90,6 +110,10 @@ box-shadow: 0px 8px 16px -4px rgba(0, 0, 0, 0.33);
     gap: 2em;
 }
 
+.box h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
 .box button{
 width: 168.45px;
 height: 42.66px;
@@ -99,6 +123,8 @@ border: none;
 color: #FFFFFF;
 background: #FA6625;
 box-shadow: 0px 8px 14.224px -3.556px rgba(0, 0, 0, 0.33);
+font-family: 'Bebas Neue', sans-serif;
+font-size: 1.5em;
 }
 
 .servcont{
@@ -111,6 +137,11 @@ box-shadow: 0px 8px 14.224px -3.556px rgba(0, 0, 0, 0.33);
  padding-left: 1em;
 }
 
+.services h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+    color: #006B5B;
+}
 .viewservices{
     display: flex;
     flex-direction: row;
@@ -127,6 +158,9 @@ background: #FA6625;
 color: #FFFFFF;
 border: none;
 box-shadow: 0px 8px 18px -4.5px rgba(0, 0, 0, 0.33);
+font-family: 'Bebas Neue', sans-serif;
+font-size: 1.5em;
+
 
 }
 .service-items{
@@ -142,6 +176,10 @@ box-shadow: 0px 8px 18px -4.5px rgba(0, 0, 0, 0.33);
 
 figcaption{
     text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+    color: #434343;
+    font-weight: 600;
+    font-size: 1.4em;
 }
 
 .london{
@@ -164,6 +202,22 @@ margin-right: auto;
     padding-bottom: 1em;
 }
 
+.auto h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.auto h3{
+    font-family:'Bebas Neue', sans-serif;
+    color: #EAAF0F;
+    
+}
+.auto p{
+    font-family: 'Gothic A1', sans-serif;
+    
+}
 .gradient{
     /* background-color: #006B5BCC; */
     height: 45em;
@@ -171,6 +225,10 @@ margin-right: auto;
     padding-top: 2em;
     text-align: center;
     background-image:linear-gradient(180deg, #004D41 50%, #FFFFFF 50%);;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    width: 100%;
 }
 .prof{
     padding: 81px 150px;
@@ -183,12 +241,33 @@ margin-top: -41%;
 padding-bottom: 5em;
 background: #F6F6F6;
 }
+
+.prof h2{
+    font-family: 'Playfair Display', sans-serif;
+font-size: 25px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+color: #006B5B;
+
+}
+.prof h3{
+    font-family: Gothic A1;
+font-size: 24px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
 .about-us{
     display: flex;
     flex-direction: row;
     background-color:#F6F6F6 ;
     margin-top: 5em;
     height: 30em;
+    width: 100%;
  }
  .mission{
     padding-top: 4em;
@@ -196,7 +275,204 @@ background: #F6F6F6;
     line-height: 210%;
 
  }
- .gallery{
-    background-color:#F6F6F6 ;
+
+ .mission h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #006B5B;
 
  }
+
+ .mission p{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    /* line-height: 40px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+
+ }
+ .gallery{
+    background-color:#F6F6F6 ;
+    text-align: center;
+
+ }
+.gallery h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #006B5B;
+
+}
+
+.gallery p{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    /* line-height: 58px; */
+    /* letter-spacing: 0em; */
+    text-align: center;
+    color: #000000;
+    ;
+
+}
+ .cars{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    padding-left: 3.3em;
+    padding-top: 3em;
+    padding-right: 3em;
+    background-color:#F6F6F6;
+    ;
+ }
+ .cars img{
+    width: 17em;
+    height: 17em;
+    
+ }
+
+ .value{
+    background-color:#F6F6F6 ;
+    text-align: center;
+    padding-top: 3em;
+
+ }
+
+
+ .value h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #006B5B;
+
+ }
+ .valuess{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-right: 3em;
+    background-color:#F6F6F6;
+    padding-bottom: 4em
+    ;
+ }
+ .valuess img{
+    width: 19em;
+    height: 19em;
+    
+ }
+ .contact{
+    display: flex;
+    flex-direction: row;
+    background-color:#FFFFFF ;
+    margin-top: -0.3em;
+    height: 30em;
+ }
+ .form{
+    padding-top: 4em;
+    padding-left: 4em;
+    
+    line-height: 210%;
+
+ }
+ form{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    /* margin-left: 3em; */
+    /* color: #091E42; */
+    font-family: 'Gothic A1', sans-serif;
+    color: #344054;
+    background-color: #FFFFFF;
+}
+input, textarea{
+    border: 2px solid #D0D5DD;
+}
+
+textarea{
+    border: 2px solid #D0D5DD;
+
+}
+.form h2{
+    font-family: 'Playfair Display', sans-serif;
+font-size: 40px;
+font-weight: 600;
+/* line-height: 80px; */
+letter-spacing: -0.02em;
+text-align: left;
+color: #101828;
+
+
+}
+
+.form p{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 28px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #667085;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    padding-bottom: 1.5em;
+}
+
+.first {
+    height: 150% !important;
+    text-align: left;
+
+}
+.second{
+    /* height: 150% !important; */
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004C3E;
+    margin-top: 35em;
+    height: 12em;
+    padding-left: 2em;
+    padding-right: 3em;
+    padding-top: 1em;
+    width: 100%;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+.socials h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.icons{
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+    padding-left: 0.7em;
+}
+.socials img{
+    width: 0.7em;
+    height: 0.8em;
+
+}
