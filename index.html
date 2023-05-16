@@ -43,8 +43,8 @@
         <div class="flexthis">
         <a class="nav-link active" aria-current="page" style="color: #006B5B;
         ;" href="#">Home</a>
-        <a class="nav-link" href="#">Our Services</a>
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#servcont">Our Services</a>
+        <a class="nav-link" href="#about-us">About Us</a>
         </div>
         </div>
       <img style="margin-left: -32em; width: 1em; height: 1.3em;" src="assets/location.png"> <p style="margin-left: -32em; font-family: 'Montserrat', sans-serif;     color: #006B5B;
@@ -62,7 +62,7 @@
     <div class="joy">
     <h1>What brings us joy?</h1>
    <div class="hr"> <hr style="width:5em; border-top: 3px solid #006B5B;"></hr> <h4>Taking good care of your car</h4></div>
-    <button>LEARN MORE</button>
+    <button onclick = "window.location.href='#servcont';" >LEARN MORE</button>
     </div>
 
     <div class="box">
@@ -85,7 +85,7 @@
     <img src="assets/carhose.png">
 </div>
 
-<div class="servcont">
+<div id="servcont" class="servcont">
 <div class="services">
     <hr style="width:30em; border: 5px solid #EAAF0F; border-bottom: none; border-left: none; border-right: none;">
     <h2>Services</h2>
@@ -145,12 +145,67 @@
 <h1>Why Choose Us</h1>
 </div>
 
-<div class="prof">
-  <h2>Experienced Professionals</h2>
+<!-- <div id="prof" class="prof">
+  <h2>Guaranteed Work</h2>
   <p>Snt Car Ltd. has a team of highly skilled and professional technicians who take pride in their work and strive to provide the best possible service.</p>
-</div>  
+</div> 
 
-<div class="about-us">
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#prof">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav> -->
+
+<section class="carousel" aria-label="carousel" Tabindex="0">
+  <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
+  <div class="slides">
+    <div class="slides-item slide-1" id="slide-1" aria-label="slide 1 of 5" tabindex="0"><h2>Experienced Professionals</h2>
+      <p>Snt Car Ltd. has a team of highly skilled and professional technicians who take pride in their work and strive to provide the best possible service.</p>
+    </div>
+    <div class="slides-item slide-2" id="slide-2" aria-label="slide 2 of 5" tabindex="0"><h2>Guaranteed Work</h2>
+      <p>Work performed by our SNT Car Ltd.  is covered by a Warranty, which protects your vehicle for 3 years/36,000 miles - whichever occurs last.</p></div>
+
+    <div class="slides-item slide-3" id="slide-3" aria-label="slide 3 of 5" tabindex="0">
+
+      <h2>Personalized Services</h2>
+      <p>Taking the time to understand the unique needs of each customer and tailor their services accordingly is what we do at Snt Car Ltd.</p>
+    </div>
+
+
+    <div class="slides-item slide-4" id="slide-4" aria-label="slide 4 of 5" tabindex="0">
+      <h2>Availability of Parts</h2>
+      <p>Snt Car Ltd. has access to a wide range of parts and materials, making it easier to find the right parts for each repair or restoration project.</p>
+
+    </div>
+    <div class="slides-item slide-5" id="slide-5" aria-label="slide 5 of 5" tabindex="0">
+      <h2>Guaranteed Work</h2>
+      <p>Snt Car Ltd. has a team of highly skilled and professional technicians who take pride in their work and strive to provide the best possible service.</p>
+
+    </div>       
+  </div>
+  <div class="carousel__nav">
+    <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">1</a>
+    <a class="slider-nav" href="#slide-2" aria-label="Go to slide 2">2</a>
+    <a class="slider-nav" href="#slide-3" aria-label="Go to slide 3">3</a>
+    <a class="slider-nav" href="#slide-4" aria-label="Go to slide 4">4</a>
+    <a class="slider-nav" href="#slide-5" aria-label="Go to slide 5">5</a>
+  </div>
+  <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+</section>
+<div id="about-us" class="about-us">
 <img style="width: 50%;" src="assets/about.png">
 <div class="mission">
   <h2>
@@ -289,6 +344,8 @@
   </div>
 
 
+
+  
 <footer>
   <img width="40em" height="22em" src="assets/snt (2).png">
 
